@@ -1,0 +1,65 @@
+.register-page {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 24px;
+    text-align: center;
+    background-color: #fff7ed;
+    border-radius: 16px;
+}
+
+.register-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.register-card h1 {
+    color: #3b2414;
+}
+
+.register-card label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    color: #555;
+    font-weight: bold;
+    text-align: left;
+}
+
+.register-card input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.register-card button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f97316;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register-card button:hover {
+    background-color: #ea580c;
+}
+
+.register-card p {
+    color: #555;
+}
+
+.register-card a {
+    color: #f97316;
+}
+
+.message {
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+}

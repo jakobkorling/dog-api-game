@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { "./Register.css"};
+import "./Register.css";
 
 function Register() {
     const [username, setUsername] = useState("");
@@ -43,9 +43,9 @@ function Register() {
 
                 <label>Password</label>
                 <input 
-                    type="text"
+                    type="password"
                     placeholder="Enter password" 
-                    value={username}
+                    value={password}
                     onChange={(event) => setPassword(event.target.value)} 
                 />
 
